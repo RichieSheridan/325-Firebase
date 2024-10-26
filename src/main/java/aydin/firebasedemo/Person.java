@@ -3,10 +3,14 @@ package aydin.firebasedemo;
 public class Person {
     private String name;
     private int age;
+    private String phoneNumber;
+    private String password;
 
-    public Person(String name, int age) {
+    public Person(String name, int age, String phoneNumber, String password) {
         this.name = name;
         this.age = age;
+        this.phoneNumber = phoneNumber;
+        this.password = password;
     }
 
     public String getName() {
@@ -17,7 +21,6 @@ public class Person {
         this.name = name;
     }
 
-
     public int getAge() {
         return age;
     }
@@ -26,4 +29,19 @@ public class Person {
         this.age = age;
     }
 
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }

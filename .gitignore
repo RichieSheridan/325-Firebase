@@ -36,4 +36,5 @@ build/
 
 ### Mac OS ###
 .DS_Store
-/src/main/resources/aydin/firebasedemo/key.json
+/src/main/resources/aydin/firebasedemo/FirebaseKey.json
+src/main/resources/aydin/firebasedemo/FirebaseKey.json
